@@ -11,7 +11,7 @@
       src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js"
       defer
     ></script>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -96,7 +96,7 @@
           <div>
             <img
               src="img/follow.svg"
-              alt="Follow Me"
+              alt="Suivez-moi"
               class="w-32 absolute z-10 top-0 right-8 animate-pulse"
             />
           </div>
@@ -107,20 +107,27 @@
           >
             <div class="flex justify-center items-center gap-4 text-[var(--white)]">
               <img src="img/instagram.svg" class="w-6 md:w-8" />
-              <p class="text-xl md:text-2xl">Instagram</p>
-            </div>
-          </a>
-          <!-- <a
-            class="py-4 pl-24 md:pl-36 text-center font-bold rounded-lg bg-purple-400 drop-shadow-md hover:bg-purple-500"
-            href="https://chat.whatsapp.com/DpoZEthNJNf3GVLHsyHiG5"
-            target="_blank"
-          >
-            <div class="flex items-center gap-4">
-              <img src="img/whatsapp.svg" class="w-8" />
-              <p>WhatsApp</p>
+              <p class="text-xl md:text-2xl text-shadow-md">Instagram</p>
             </div>
           </a>
           <a
+            class="py-4 text-center font-bold rounded-lg bg-[var(--green)] drop-shadow-md hover:opacity-80"
+            href="https://chat.whatsapp.com/DpoZEthNJNf3GVLHsyHiG5"
+            target="_blank"
+          >
+            <div class="flex justify-center items-center gap-4 text-[var(--white)]">
+              <img src="img/whatsapp.svg" class="w-6 md:w-8" />
+              <p class="text-xl md:text-2xl text-shadow-md">WhatsApp</p>
+            </div>
+          </a>
+          <div>
+            <img
+              src="img/contact.svg"
+              alt="Contactez-moi"
+              class="w-32 z-10 absolute -bottom-20 left-8"
+            />
+          </div>
+          <!--- <a
             class="py-4 pl-24 md:pl-36 text-center font-bold rounded-lg bg-purple-400 drop-shadow-md hover:bg-purple-500"
             href="https://www.facebook.com/profile.php?id=100095299300100"
             target="_blank"
