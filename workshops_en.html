@@ -27,6 +27,9 @@
         --grey: #535455;
         --white: #f7f2ee;
       }
+      html {
+        scroll-behavior: smooth;
+      }
       .font-simple {
         font-family: 'Quicksand', sans-serif;
       }
@@ -53,13 +56,30 @@
             Find again the pure joy of creating freely, without any judgment — the way you
             did as a child… Welcome to your gentle bubble of creativity!
           </div>
-        </div>
-        <div class="flex flex-col mt-4 relative font-simple">
-          <h3
-            class="w-full bg-[var(--pink)] p-4 rounded-t-2xl font-semibold text-[var(--white)]"
+          <div
+            class="flex justify-center gap-8 items-center font-simple font-semibold pt-4 pb-8"
           >
-            Watercolor Brunch
-          </h3>
+            <a
+              href="#portugal"
+              class="py-2 px-4 text-center text-[var(--green)] rounded-lg border-2 border-[var(--green)] hover:text-[var(--white)] hover:bg-[var(--green)] hover:opacity-80"
+              >Workshops in Portugal</a
+            >
+            <a
+              href="#france"
+              class="py-2 px-4 text-center text-[var(--blue)] rounded-lg border-2 border-[var(--blue)] hover:text-[var(--white)] hover:bg-[var(--blue)] hover:opacity-80"
+              >Workshops in France</a
+            >
+          </div>
+        </div>
+
+        <div id="portugal" class="text-4xl pt-4">🇵🇹 Workshops in Portugal</div>
+        <div class="flex flex-col mt-4 relative font-simple">
+          <div
+            class="w-full bg-[var(--pink)] p-4 rounded-t-2xl text-[var(--white)] flex justify-between items-center"
+          >
+            <h3 class="font-semibold">Watercolor Brunch</h3>
+            <p class="italic">Ericeira, Portugal</p>
+          </div>
           <div
             class="text-xs md:text-base p-4 border-1 border-[var(--pink)] rounded-b-2xl"
           >
@@ -115,12 +135,15 @@
             </div>
           </div>
         </div>
+
+        <div id="france" class="text-4xl pt-16">🇫🇷 Workshops in France</div>
         <div class="flex flex-col mt-4 relative font-simple">
-          <h3
-            class="w-full bg-[var(--green)] p-4 rounded-t-2xl font-semibold text-[var(--white)]"
+          <div
+            class="w-full bg-[var(--green)] p-4 rounded-t-2xl text-[var(--white)] flex justify-between items-center"
           >
-            Yog'Aquarelle for Kids - From 6 years old
-          </h3>
+            <h3 class="font-semibold">Yog'Aquarelle for Kids - From 6 years old</h3>
+            <p class="italic">Seyssel, France</p>
+          </div>
           <div
             class="text-xs md:text-base p-4 border-1 border-[var(--green)] rounded-b-2xl"
           >
@@ -205,11 +228,12 @@
           </div>
         </div>
         <div class="flex flex-col mt-4 relative font-simple">
-          <h3
-            class="w-full bg-[var(--blue)] p-4 rounded-t-2xl font-semibold text-[var(--white)]"
+          <div
+            class="w-full bg-[var(--blue)] p-4 rounded-t-2xl text-[var(--white)] flex justify-between items-center"
           >
-            Yog'Aquarelle - Relieve Anxiety
-          </h3>
+            <h3 class="font-semibold">Yog'Aquarelle - Relieve Anxiety</h3>
+            <p class="italic">Seyssel, France</p>
+          </div>
           <div
             class="text-xs md:text-base p-4 border-1 border-[var(--blue)] rounded-b-2xl"
           >
@@ -351,7 +375,15 @@
       </div>
     </div>
     <footer class="flex justify-center py-2 font-simple">
-      <div class="text-sm">Made with ♡ by WaterLili</div>
+      <div class="text-sm">
+        Made with ♡ by
+        <a
+          href="https://elisedjn.github.io/"
+          target="_blank"
+          class="font-semibold underline"
+          >Elise Djn</a
+        >
+      </div>
     </footer>
   </body>
 </html>

@@ -27,6 +27,9 @@
         --grey: #535455;
         --white: #f7f2ee;
       }
+      html {
+        scroll-behavior: smooth;
+      }
       .font-simple {
         font-family: 'Quicksand', sans-serif;
       }
@@ -53,77 +56,30 @@
             Retrouvez la joie de créer sans jugement, comme quand vous étiez enfant...
             Bienvenue dans votre bulle de créativité!
           </div>
-        </div>
-        <div class="flex flex-col mt-4 relative font-simple">
-          <h3
-            class="w-full bg-[var(--pink)] p-4 rounded-t-2xl font-semibold text-[var(--white)]"
-          >
-            Watercolor Brunch
-          </h3>
           <div
-            class="text-xs md:text-base p-4 border-1 border-[var(--pink)] rounded-b-2xl"
+            class="flex justify-center gap-8 items-center font-simple font-semibold pt-4 pb-8"
           >
-            <div class="text-justify mb-4">
-              Des matinées <span class="font-semibold">pleines de douceur</span>, de rires
-              et de couleurs pour
-              <span class="font-semibold"
-                >explorer differentes techniques d’aquarelle</span
-              >
-              différentes. Tu peux venir à un ou à plusieurs ateliers :
-              <span class="font-semibold"
-                >chaque séance t’invite à créer une petite œuvre unique…</span
-              >
-              ou à en assembler plusieurs pour une création complète, pleine de poésie et
-              de lumière ✨
-              <br />
-              Les <span class="font-semibold">boissons chaudes sont incluses</span>, tu
-              peux amener quelque chose de gourmand à partager (sucré ou salé)
-            </div>
-            <div class="border-t pt-2 border-[var(--pink)]">
-              <div class="flex justify-between flex-col md:flex-row gap-1">
-                <p class="flex">
-                  <img
-                    src="assets/img/price.svg"
-                    class="w-4 drop-shadow-md mr-1"
-                  />20€/personne
-                </p>
-                <p>Matériel inclus</p>
-              </div>
-              <div class="flex justify-between flex-col md:flex-row gap-1 pb-1">
-                <p class="flex">
-                  <img src="assets/img/date.svg" class="w-4 drop-shadow-md mr-1" />
-                  Dimanches 8 Février, 15 Mars et 22 Mars 2026
-                </p>
-                <p class="flex">
-                  <img src="assets/img/time.svg" class="w-4 drop-shadow-md mr-1" />
-                  11h00-13h00
-                </p>
-              </div>
-              <div class="flex justify-between flex-col md:flex-row gap-1">
-                <p class="flex">
-                  <img src="assets/img/place.svg" class="w-4 drop-shadow-md mr-1" />JBay
-                  Collective | R. Dr. Eduardo Burnay 32 A
-                </p>
-                <p>Ericeira, Portugal</p>
-              </div>
-            </div>
-            <div class="flex justify-center mt-4">
-              <a
-                href="assets/pdf/WatercolorBrunch.pdf"
-                class="px-6 py-2 bg-[var(--pink)] rounded-full cursor-pointer font-semibold text-[var(--white)] hover:opacity-80 flex justify-center items-center max-w-xs"
-                target="_blank"
-              >
-                <img src="assets/img/plus.svg" class="w-2 md:w-4 mr-2" />Plus d'infos
-              </a>
-            </div>
+            <a
+              href="#france"
+              class="py-2 px-4 text-center text-[var(--blue)] rounded-lg border-2 border-[var(--blue)] hover:text-[var(--white)] hover:bg-[var(--blue)] hover:opacity-80"
+              >Ateliers en France</a
+            >
+            <a
+              href="#portugal"
+              class="py-2 px-4 text-center text-[var(--green)] rounded-lg border-2 border-[var(--green)] hover:text-[var(--white)] hover:bg-[var(--green)] hover:opacity-80"
+              >Ateliers au Portugal</a
+            >
           </div>
         </div>
+
+        <div id="france" class="text-4xl pt-4">🇫🇷 Ateliers en France</div>
         <div class="flex flex-col mt-4 relative font-simple">
-          <h3
-            class="w-full bg-[var(--green)] p-4 rounded-t-2xl font-semibold text-[var(--white)]"
+          <div
+            class="w-full bg-[var(--green)] p-4 rounded-t-2xl text-[var(--white)] flex justify-between items-center"
           >
-            Yog'Aquarelle Enfant - À partir de 6 ans
-          </h3>
+            <h3 class="font-semibold">Yog'Aquarelle Enfant - À partir de 6 ans</h3>
+            <p class="italic">Seyssel, France</p>
+          </div>
           <div
             class="text-xs md:text-base p-4 border-1 border-[var(--green)] rounded-b-2xl"
           >
@@ -208,11 +164,12 @@
           </div>
         </div>
         <div class="flex flex-col mt-4 relative font-simple">
-          <h3
-            class="w-full bg-[var(--blue)] p-4 rounded-t-2xl font-semibold text-[var(--white)]"
+          <div
+            class="w-full bg-[var(--blue)] p-4 rounded-t-2xl text-[var(--white)] flex justify-between items-center"
           >
-            Yog'Aquarelle - Soulager l'Anxiété
-          </h3>
+            <h3 class="font-semibold">Yog'Aquarelle Soulager l'Anxiété</h3>
+            <p class="italic">Seyssel, France</p>
+          </div>
           <div
             class="text-xs md:text-base p-4 border-1 border-[var(--blue)] rounded-b-2xl"
           >
@@ -283,6 +240,73 @@
               <a
                 href="assets/pdf/YogAquarelleAnxiete.pdf"
                 class="px-6 py-2 bg-[var(--blue)] rounded-full cursor-pointer font-semibold text-[var(--white)] hover:opacity-80 flex justify-center items-center max-w-xs"
+                target="_blank"
+              >
+                <img src="assets/img/plus.svg" class="w-2 md:w-4 mr-2" />Plus d'infos
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div id="portugal" class="text-4xl pt-16">🇵🇹 Ateliers au Portugal</div>
+        <div class="flex flex-col mt-4 relative font-simple">
+          <div
+            class="w-full bg-[var(--pink)] p-4 rounded-t-2xl text-[var(--white)] flex justify-between items-center"
+          >
+            <h3 class="font-semibold">Watercolor Brunch</h3>
+            <p class="italic">Ericeira, Portugal</p>
+          </div>
+          <div
+            class="text-xs md:text-base p-4 border-1 border-[var(--pink)] rounded-b-2xl"
+          >
+            <div class="text-justify mb-4">
+              Des matinées <span class="font-semibold">pleines de douceur</span>, de rires
+              et de couleurs pour
+              <span class="font-semibold"
+                >explorer differentes techniques d’aquarelle</span
+              >
+              différentes. Tu peux venir à un ou à plusieurs ateliers :
+              <span class="font-semibold"
+                >chaque séance t’invite à créer une petite œuvre unique…</span
+              >
+              ou à en assembler plusieurs pour une création complète, pleine de poésie et
+              de lumière ✨
+              <br />
+              Les <span class="font-semibold">boissons chaudes sont incluses</span>, tu
+              peux amener quelque chose de gourmand à partager (sucré ou salé)
+            </div>
+            <div class="border-t pt-2 border-[var(--pink)]">
+              <div class="flex justify-between flex-col md:flex-row gap-1">
+                <p class="flex">
+                  <img
+                    src="assets/img/price.svg"
+                    class="w-4 drop-shadow-md mr-1"
+                  />20€/personne
+                </p>
+                <p>Matériel inclus</p>
+              </div>
+              <div class="flex justify-between flex-col md:flex-row gap-1 pb-1">
+                <p class="flex">
+                  <img src="assets/img/date.svg" class="w-4 drop-shadow-md mr-1" />
+                  Dimanches 8 Février, 15 Mars et 22 Mars 2026
+                </p>
+                <p class="flex">
+                  <img src="assets/img/time.svg" class="w-4 drop-shadow-md mr-1" />
+                  11h00-13h00
+                </p>
+              </div>
+              <div class="flex justify-between flex-col md:flex-row gap-1">
+                <p class="flex">
+                  <img src="assets/img/place.svg" class="w-4 drop-shadow-md mr-1" />JBay
+                  Collective | R. Dr. Eduardo Burnay 32 A
+                </p>
+                <p>Ericeira, Portugal</p>
+              </div>
+            </div>
+            <div class="flex justify-center mt-4">
+              <a
+                href="assets/pdf/WatercolorBrunch.pdf"
+                class="px-6 py-2 bg-[var(--pink)] rounded-full cursor-pointer font-semibold text-[var(--white)] hover:opacity-80 flex justify-center items-center max-w-xs"
                 target="_blank"
               >
                 <img src="assets/img/plus.svg" class="w-2 md:w-4 mr-2" />Plus d'infos
@@ -365,7 +389,15 @@
       </div>
     </div>
     <footer class="flex justify-center py-2 font-simple">
-      <div class="text-sm">Made with ♡ by WaterLili</div>
+      <div class="text-sm">
+        Made with ♡ by
+        <a
+          href="https://elisedjn.github.io/"
+          target="_blank"
+          class="font-semibold underline"
+          >Elise Djn</a
+        >
+      </div>
     </footer>
   </body>
 </html>
