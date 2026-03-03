@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WaterLili Creation</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon.ico" />
+    <link rel="icon" type="image/png" href="assets/icons/favicon.ico" />
     <script
       src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js"
       defer
@@ -37,31 +37,61 @@
     class="font-sans text-[var(--grey)] bg-[var(--white)]"
     style="font-family: 'Amatic SC', sans-serif"
   >
-    <div class="flex w-full justify-center pt-8 px-10 min-h-screen pb-18">
-      <div class="max-w-md">
-        <div>
-          <div class="flex items-center justify-center pb-2">
-            <img src="assets/img/logo.png" alt="WaterLili Creation" class="md:w-full" />
-          </div>
+    <header class="mx-auto max-w-md">
+      <div class="flex items-center justify-center pb-2">
+        <img src="assets/img/logo.png" alt="WaterLili Creation" class="md:w-full" />
+      </div>
 
-          <h2 class="text-center text-2xl md:text-4xl pb-4">
-            Colorful Watercolors & Joyful Workshops
-          </h2>
-          <div class="text-xs md:text-base flex justify-center gap-4 font-simple">
-            <p>Originals</p>
-            <p>|</p>
-            <p>Art pints</p>
-          </div>
-          <div class="text-xs md:text-base flex justify-center gap-4 font-simple">
-            <p>Custom orders</p>
-            <p>|</p>
-            <p>Creativity Workshops</p>
-          </div>
+      <h2 class="text-center text-2xl md:text-4xl pb-4">
+        Colorful Watercolors & Joyful Workshops
+      </h2>
+      <div class="text-xs md:text-base flex justify-center gap-4 font-simple">
+        <p>Originals</p>
+        <p>|</p>
+        <p>Art pints</p>
+      </div>
+      <div class="text-xs md:text-base flex justify-center gap-4 font-simple">
+        <p>Custom orders</p>
+        <p>|</p>
+        <p>Creativity Workshops</p>
+      </div>
+    </header>
+    <main class="flex justify-center gap-4">
+      <div class="hidden md:flex min-h-screen flex-col relative -top-32 gap-10">
+        <div class="w-48 h-48 rounded-full relative -left-24">
+          <img
+            src="assets/img/heros.png"
+            alt="Sticker Renard Mignon"
+            class="w-full h-full object-cover object-bottom rounded-full"
+          />
         </div>
+        <div class="w-48 h-48 rounded-full">
+          <img
+            src="assets/img/mer.jpeg"
+            alt="Sticker Renard Mignon"
+            class="w-full h-full object-cover object-left rounded-full"
+          />
+        </div>
+        <div class="w-48 h-48 rounded-full relative -left-24">
+          <img
+            src="assets/img/ballet.jpeg"
+            alt="Sticker Renard Mignon"
+            class="w-full h-full object-cover object-center rounded-full"
+          />
+        </div>
+        <div class="w-48 h-48 rounded-full">
+          <img
+            src="assets/img/renard.png"
+            alt="Aquarelle Le Renard et La Lune"
+            class="w-full h-full object-cover object-center rounded-full"
+          />
+        </div>
+      </div>
+      <div class="pt-8 px-10 min-h-screen pb-18 w-full md:w-1/3 md:max-w-md">
         <div class="flex flex-col gap-4 pt-16 relative">
           <a href="https://ko-fi.com/waterlilicreation" target="_blank" class="block">
             <img
-              src="assets/img/shopme_en.svg"
+              src="assets/icons/shopme_en.svg"
               alt="My art in your home"
               class="w-24 md:w-32 absolute z-10 top-2 left-0 md:-top-3 md:left-4 animate-pulse"
             />
@@ -72,7 +102,7 @@
             target="_blank"
           >
             <div class="flex justify-center items-center gap-4 text-[var(--white)]">
-              <img src="assets/img/shop.svg" class="w-6 md:w-8 drop-shadow-md" />
+              <img src="assets/icons/shop.svg" class="w-6 md:w-8 drop-shadow-md" />
               <p class="text-xl md:text-2xl text-shadow-md">My online shop</p>
             </div>
           </a>
@@ -81,7 +111,7 @@
             href="/workshops_en.html"
           >
             <div class="flex justify-center items-center gap-4 text-[var(--white)]">
-              <img src="assets/img/palette.svg" class="w-6 md:w-8 drop-shadow-md" />
+              <img src="assets/icons/palette.svg" class="w-6 md:w-8 drop-shadow-md" />
               <p class="text-xl md:text-2xl text-shadow-md">
                 My next Watercolor Workshops
               </p>
@@ -95,7 +125,7 @@
             class="block"
           >
             <img
-              src="assets/img/follow_en.svg"
+              src="assets/icons/follow_en.svg"
               alt="Follow-me"
               class="w-24 md:w-32 absolute z-10 top-3 md:top-0 right-4"
             />
@@ -106,7 +136,7 @@
             target="_blank"
           >
             <div class="flex justify-center items-center gap-4 text-[var(--white)]">
-              <img src="assets/img/instagram.svg" class="w-6 md:w-8 drop-shadow-md" />
+              <img src="assets/icons/instagram.svg" class="w-6 md:w-8 drop-shadow-md" />
               <p class="text-xl md:text-2xl text-shadow-md">Instagram</p>
             </div>
           </a>
@@ -116,7 +146,7 @@
             target="_blank"
           >
             <div class="flex justify-center items-center gap-4 text-[var(--white)]">
-              <img src="assets/img/facebook.svg" class="w-6 md:w-8 drop-shadow-md" />
+              <img src="assets/icons/facebook.svg" class="w-6 md:w-8 drop-shadow-md" />
               <p class="text-xl md:text-2xl text-shadow-md">Facebook</p>
             </div>
           </a>
@@ -125,7 +155,7 @@
             href="/inscription_en.html"
           >
             <div class="flex justify-center items-center gap-4 text-[var(--white)]">
-              <img src="assets/img/newsletter.svg" class="w-6 md:w-8 drop-shadow-md" />
+              <img src="assets/icons/newsletter.svg" class="w-6 md:w-8 drop-shadow-md" />
               <p class="text-xl md:text-2xl text-shadow-md">Join my newsletter</p>
             </div>
           </a>
@@ -133,7 +163,7 @@
         <div class="flex flex-col gap-4 pt-16 relative">
           <a class="block" href="https://wa.me/33662890364" target="_blank">
             <img
-              src="assets/img/contact_en.svg"
+              src="assets/icons/contact_en.svg"
               alt="Contact-me"
               class="w-24 md:w-32 z-10 absolute top-3 md:top-0 left-4"
             />
@@ -144,7 +174,7 @@
             target="_blank"
           >
             <div class="flex justify-center items-center gap-4 text-[var(--white)]">
-              <img src="assets/img/whatsapp.svg" class="w-6 md:w-8 drop-shadow-md" />
+              <img src="assets/icons/whatsapp.svg" class="w-6 md:w-8 drop-shadow-md" />
               <p class="text-xl md:text-2xl text-shadow-md">WhatsApp</p>
             </div>
           </a>
@@ -154,13 +184,43 @@
             target="_blank"
           >
             <div class="flex justify-center items-center gap-4 text-[var(--white)]">
-              <img src="assets/img/email.svg" class="w-6 md:w-8 drop-shadow-md" />
+              <img src="assets/icons/email.svg" class="w-6 md:w-8 drop-shadow-md" />
               <p class="text-xl md:text-2xl text-shadow-md">E-mail</p>
             </div>
           </a>
         </div>
       </div>
-    </div>
+      <div class="hidden md:flex min-h-screen flex-col relative -top-32 gap-10">
+        <div class="w-48 h-48 rounded-full">
+          <img
+            src="assets/img/baleine.png"
+            alt="Aquarelle Le Renard et La Lune"
+            class="w-full h-full object-cover object-left rounded-full"
+          />
+        </div>
+        <div class="w-48 h-48 rounded-full relative -right-24">
+          <img
+            src="assets/img/deesse.png"
+            alt="Aquarelle Le Renard et La Lune"
+            class="w-full h-full object-cover object-top rounded-full"
+          />
+        </div>
+        <div class="w-48 h-48 rounded-full">
+          <img
+            src="assets/img/etoiles.png"
+            alt="Aquarelle Le Renard et La Lune"
+            class="w-full h-full object-cover object-center rounded-full"
+          />
+        </div>
+        <div class="w-48 h-48 rounded-full relative -right-24">
+          <img
+            src="assets/img/mushroom.jpeg"
+            alt="Aquarelle Le Renard et La Lune"
+            class="w-full h-full object-cover object-center rounded-full"
+          />
+        </div>
+      </div>
+    </main>
     <footer class="flex justify-center py-2 font-simple">
       <div class="text-sm">
         Made with ♡ by
